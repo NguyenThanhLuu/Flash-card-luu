@@ -5,7 +5,7 @@
    background-color: black;
    color: white;
    font-weight: 600;
-   border: none;
+   border: 1px solid;
    float: right;
 }
 
@@ -230,4 +230,58 @@ tr:nth-child(even) {
 
 h1 {
    text-align: center;
+}
+
+.memorized-count {
+   display: flex; 
+   margin-left: 10px; 
+   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+   .btn-each-card {
+      display: flex;
+      flex-direction: column;
+   }
+   
+   .each-card {
+      min-height: 17em;
+   }
+   
+   .delete-btn {
+      width: 100%;
+      margin-top: 4px;
+   }
+
+   .edit-btn {
+      width: 100%;
+      margin-top: 5px;
+   }
+
+   table {
+      margin-left: 10px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .each-card {
+      width: 100%;
+   }
+   
+   .list-cards {
+      justify-content: normal;
+      padding-top: 1em;
+   }
+
+   .container-new-card-and-memorized-table {
+      flex-direction: column;
+   }
+
+   .add-card {
+      width: 90%;
+   }
+
+   table {
+      width: 94%;
+   }
 }

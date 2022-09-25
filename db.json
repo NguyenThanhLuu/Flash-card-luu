@@ -113,30 +113,5 @@
       "id": 16
     }
   ],
-  "cards-memorized": [
-    {
-      "name": "sdf",
-      "translate": "sdf",
-      "pronounce": "sdf",
-      "numberOfTimes": 0,
-      "createTime": "9-24-2022",
-      "id": 1
-    },
-    {
-      "name": "sdfsdf",
-      "translate": "sdfsdf",
-      "pronounce": "sdfsdf",
-      "numberOfTimes": 0,
-      "createTime": "9-24-2022",
-      "id": 2
-    },
-    {
-      "name": "sdfsdf",
-      "translate": "sdfsdf",
-      "pronounce": "sdfsdf",
-      "numberOfTimes": 0,
-      "createTime": "9-24-2022",
-      "id": 3
-    }
-  ]
+  "cards-memorized": []
 }
