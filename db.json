@@ -1,90 +1,292 @@
 {
   "cards": [
     {
-      "name": "consulting",
+      "name": "gents",
+      "numberOfTimes": 3,
+      "translate": "quý vị",
+      "pronounce": "chen s",
+      "createTime": "9-27-2022",
+      "id": 17
+    },
+    {
+      "name": "bulk ",
+      "numberOfTimes": 3,
+      "translate": "số lượng lớn",
+      "pronounce": "bêu k",
+      "createTime": "9-27-2022",
+      "id": 18
+    },
+    {
+      "name": "useless",
+      "numberOfTimes": 3,
+      "translate": "vô dụng ",
+      "pronounce": "díu sơ lệch",
+      "createTime": "9-27-2022",
+      "id": 19
+    },
+    {
+      "name": "complicated",
+      "numberOfTimes": 3,
+      "translate": "phức tạp",
+      "pronounce": "cóm ly cay địt",
+      "createTime": "9-27-2022",
+      "id": 20
+    },
+    {
+      "name": "spike",
+      "numberOfTimes": 3,
+      "translate": "mũi nhọn",
+      "pronounce": "sờ bai k",
+      "createTime": "9-28-2022",
+      "id": 21
+    },
+    {
+      "name": "formed",
       "numberOfTimes": 1,
+      "translate": "hình thành",
+      "pronounce": "phôm đ",
+      "createTime": "9-28-2022",
+      "id": 22
+    },
+    {
+      "name": "evil",
+      "numberOfTimes": 1,
+      "translate": "độc ác",
+      "pronounce": "ý vồ",
+      "createTime": "9-28-2022",
+      "id": 23
+    },
+    {
+      "name": "disadvantage",
+      "numberOfTimes": 1,
+      "translate": "nhược điểm",
+      "pronounce": "đít sơ ván tịt ch",
+      "createTime": "9-28-2022",
+      "id": 24
+    },
+    {
+      "name": "blaming",
+      "numberOfTimes": 1,
+      "translate": "đổ lỗi",
+      "pronounce": "bờ lém min",
+      "createTime": "9-28-2022",
+      "id": 25
+    },
+    {
+      "name": "kindness",
+      "numberOfTimes": 1,
+      "translate": "lòng tốt",
+      "pronounce": "kai nệt",
+      "createTime": "9-28-2022",
+      "id": 26
+    },
+    {
+      "name": "feeding",
+      "numberOfTimes": 1,
+      "translate": "cho ăn",
+      "pronounce": "phí đing",
+      "createTime": "9-28-2022",
+      "id": 27
+    },
+    {
+      "name": "wholesome",
+      "numberOfTimes": 1,
+      "translate": "lành mạnh",
+      "pronounce": "hếu sùm",
+      "createTime": "9-28-2022",
+      "id": 28
+    },
+    {
+      "name": "peaceful",
+      "numberOfTimes": 1,
+      "translate": "bình yên",
+      "pronounce": "bí phô",
+      "createTime": "9-28-2022",
+      "id": 29
+    },
+    {
+      "name": "obvious",
+      "numberOfTimes": 1,
+      "translate": "rõ ràng",
+      "pronounce": "ó vi ệt",
+      "createTime": "9-29-2022",
+      "id": 30
+    },
+    {
+      "name": "suppose",
+      "numberOfTimes": 1,
+      "translate": "giả sử",
+      "pronounce": "sờ bêu",
+      "createTime": "9-29-2022",
+      "id": 31
+    },
+    {
+      "name": "even",
+      "numberOfTimes": 1,
+      "translate": "số chẵn",
+      "pronounce": "ý vền",
+      "createTime": "9-30-2022",
+      "id": 32
+    },
+    {
+      "name": "criticized",
+      "numberOfTimes": 1,
+      "translate": "chỉ trích ",
+      "pronounce": "cờ rí đi sai đ",
+      "createTime": "10-1-2022",
+      "id": 33
+    },
+    {
+      "name": "jealousy",
+      "translate": "lòng ghen tị ",
+      "pronounce": "ché lệch si ",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 34
+    },
+    {
+      "name": "craving",
+      "translate": "thèm thuồng ",
+      "pronounce": "cờ ráy ving ",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 35
+    },
+    {
+      "name": "lust",
+      "translate": "ham muốn ",
+      "pronounce": "lết s t",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 36
+    },
+    {
+      "name": "distracted ",
+      "numberOfTimes": 0,
+      "translate": "phân tâm ",
+      "pronounce": "đít trác địt",
+      "createTime": "10-1-2022",
+      "id": 37
+    },
+    {
+      "name": "serene",
+      "translate": "thanh thản",
+      "pronounce": "sơ ri n ",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 38
+    },
+    {
+      "name": "depressed",
+      "translate": "suy sụp ",
+      "pronounce": "đi bở rét s t",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 39
+    },
+    {
+      "name": "silent",
+      "translate": "im lặng ",
+      "pronounce": "sai lền ",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 40
+    },
+    {
+      "name": "lent",
+      "translate": "cho mượn ",
+      "pronounce": "len t",
+      "numberOfTimes": 0,
+      "createTime": "10-1-2022",
+      "id": 41
+    }
+  ],
+  "cards-memorized": [
+    {
+      "name": "consulting  ",
       "translate": "tư vấn",
       "pronounce": "kên sấu tin",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 1
     },
     {
-      "name": "psychological ",
-      "numberOfTimes": 1,
+      "name": "psychological",
       "translate": "tâm lý",
       "pronounce": "sai cồ ló chịt cồ",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 2
     },
     {
       "name": "psychologist",
-      "numberOfTimes": 1,
       "translate": "nhà tâm lý học",
       "pronounce": "sai có lờ chịt",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 3
     },
     {
-      "name": "salespeople ",
-      "numberOfTimes": 1,
+      "name": "salespeople",
       "translate": "nhân viên bán hàng ",
       "pronounce": "seo bí bồ",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 4
     },
     {
       "name": "emerge",
-      "numberOfTimes": 1,
       "translate": "hiện ra",
       "pronounce": "im mớ ch",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 5
     },
     {
       "name": "significant",
-      "numberOfTimes": 1,
       "translate": "yếu tố",
       "pronounce": "sin ní phi kền",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 6
     },
     {
-      "name": "perseverance ",
-      "numberOfTimes": 1,
+      "name": "perseverance",
       "translate": "kiên trì",
       "pronounce": "bơ sờ vía rền",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 7
     },
     {
       "name": "stamina",
-      "numberOfTimes": 1,
       "translate": "sự bền bỉ",
       "pronounce": "sờ té mi nề",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 8
     },
     {
       "name": "sprint",
-      "numberOfTimes": 1,
       "translate": "tăng tốc",
       "pronounce": "sờ b rin",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 9
     },
     {
       "name": "Turns out",
-      "numberOfTimes": 1,
       "translate": "hóa ra",
       "pronounce": "tến sao",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 10
     },
     {
-      "name": "grittier   ",
-      "numberOfTimes": 1,
+      "name": "grittier",
       "translate": "gan lỳ hơn",
       "pronounce": "gờ rí đi ờ",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 11
     },
@@ -92,26 +294,25 @@
       "name": "inform",
       "translate": "báo",
       "pronounce": "in phôm",
-      "numberOfTimes": "0",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 12
     },
     {
       "name": "proposed",
-      "numberOfTimes": 0,
       "translate": "đề xuất",
       "pronounce": "rê bêu s t",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
-      "id": 15
+      "id": 13
     },
     {
       "name": "refinement",
       "translate": "sự sàng lọc",
       "pronounce": "ri phái mền",
-      "numberOfTimes": "0",
+      "numberOfTimes": 3,
       "createTime": "9-23-2022",
-      "id": 16
+      "id": 14
     }
-  ],
-  "cards-memorized": []
+  ]
 }

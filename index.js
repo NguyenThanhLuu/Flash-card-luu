@@ -7,6 +7,8 @@ let isTranslate = false;
 let deleteCard = true;
 let disabledButtonEditAndDelete = true;
 let countNumberMemorized = 0;
+let countCardNumbers = 0;
+let wholeCardWeHave = [];
 
 const enableAdminRights = () => {
    let codeAdminUserEnter = localStorage.getItem('userCode') || document.querySelector('#codeAdmin').value; 
@@ -66,6 +68,7 @@ const handleGetCards = () => {
    fetch(initUrl)
       .then(data => data.json())
       .then(data => {
+         wholeCardWeHave = wholeCardWeHave.concat(data);
          const firstCard = data[0];
          let initTime = firstCard.createTime;
          let arrDiffTime = [];
@@ -73,6 +76,7 @@ const handleGetCards = () => {
          htmlUl = createGroupCardFollowTime(initTime);
          document.querySelector('.cards-follow-create-time').appendChild(createGroupCardFollowTime(initTime));
          for (let i in data) {
+            countCardNumbers += 1;
             if (data[i].createTime != initTime) {
                document.querySelector('.cards-follow-create-time').appendChild(createGroupCardFollowTime(data[i].createTime));
                arrDiffTime.push(data[i].createTime);
@@ -99,6 +103,7 @@ const handleGetCards = () => {
             </li>
             `, "text/html").firstChild)
          }
+         document.querySelector('.card-numbers').innerHTML = countCardNumbers;
       });
    }
 
@@ -106,6 +111,7 @@ const handleGetMemorizedCards = () => {
    fetch(initMemoryUrlCard)
    .then(data => data.json())
    .then(data => {
+      wholeCardWeHave = wholeCardWeHave.concat(data);
       let eachRowOfTable = `
          <tr>
             <th>STT</th>
@@ -122,7 +128,9 @@ const handleGetMemorizedCards = () => {
                <td>${card.id}</td>
                <td>${card.name}</td>
                <td>${card.pronounce}</td>
-               <td class="translate-and-delete">${card.translate} <button onclick="deleteRowMemorized(${card.id})" class="btn-delete-memorized-row">X</button></td>
+               <td class="translate-and-delete">${card.translate} 
+                  <button onclick="deleteRowMemorized(${card.id})" class="btn-delete-memorized-row">X</button>
+               </td>
             </tr>
          `
       })
@@ -136,24 +144,23 @@ handleGetCards();
 handleGetMemorizedCards();
 
 const handleChangeBgToBlack = () => {
-   document.querySelector('body').style.cssText = `
-   background-color: rgb(41, 41, 41);
-   color: white;
-`
-document.querySelector('.theme-btn').textContent = 'Light Theme';
+   document.querySelector('body').style = `
+      background-color: rgb(41, 41, 41);
+      color: white;
+   `
+   document.querySelector('.theme-btn').textContent = 'Light Theme';
 }
 
 const handleChangeBgToWhite = () => {
-   document.querySelector('body').style.cssText = `
-   background-color: white;
-   color: black;
-`
-document.querySelector('.theme-btn').textContent = 'Dark Theme';
+   document.querySelector('body').style = `
+      background-color: white;
+      color: black;
+   `
+   document.querySelector('.theme-btn').textContent = 'Dark Theme';
 }
 
 // localStorage.removeItem('isDarkTheme')
 isDarkTheme = JSON.parse(localStorage.getItem('isDarkTheme')) || isDarkThemeInit;
-console.log('isDarkTheme meme:', isDarkTheme)
 isDarkTheme === true ? handleChangeBgToBlack() : handleChangeBgToWhite();
 
 const createCard = (data, callback) => {
@@ -193,10 +200,17 @@ const handlePostcards = () => {
 }
 
 document.querySelector('.add-btn').onclick = () => {
-   if (document.querySelector('.card-title').value.trim() != '' && document.querySelector('.card-translate').value.trim() != '' && document.querySelector('.card-pronounce').value != '') {
-      handlePostcards(); 
+   if (document.querySelector('.card-title').value.trim() != '' 
+         && document.querySelector('.card-translate').value.trim() != '' 
+         && document.querySelector('.card-pronounce').value != '') {
+      const workDuplicate = wholeCardWeHave.find(card => card.name.trim() == document.querySelector('.card-title').value.trim());
+      if (workDuplicate) {
+         alert('This word already existed!')
+      } else {
+         handlePostcards();
+      }
    } else {
-      alert('Please fill all the field before submit!')
+      alert('Please fill all the field before submit!');
    }
 }
 
@@ -231,10 +245,10 @@ const handleEditCards = (id, name, numberOfTimes, translate, pronounce, createTi
          onkeyup="handleShowSaveButton(${id}, '${name}', ${numberOfTimes}, '${translate}', '${pronounce}')">
       </input>
       <div class="btn-each-card">
-         <button class="card-btn save-edit-card-btn" 
+         <button class="card-btn save-and-edit-btn save-edit-card-btn" 
             onclick="handleSaveEditCards(${id}, '${name}', ${numberOfTimes}, '${translate}', '${pronounce}', '${createTime}')"> Save 
          </button>
-         <button class="card-btn close-edit-card-btn" 
+         <button class="card-btn save-and-edit-btn close-edit-card-btn" 
             onclick="handleCloseEditCards(${id}, '${name}', ${numberOfTimes}, '${translate}', '${pronounce}', '${createTime}')"> Close
          </button>
       </div>
@@ -247,11 +261,32 @@ const handleEditCards = (id, name, numberOfTimes, translate, pronounce, createTi
    document.querySelector(`.save-edit-card-btn`).setAttribute('disabled', true);
 }
 
+const handleSaveEditWhenPressEnter = (event, id, name, numberOfTimes, translate, pronounce, createTime) => {
+   if (event.keyCode == 13) {
+      handleSaveEditCards(id, name, numberOfTimes, translate, pronounce, createTime);
+   }
+}
+
+const checkWriting = (event, id, name) => {
+   if (event.keyCode == 13) {
+      if (event.target.value.trim().toLowerCase() == name.trim().toLowerCase()) {
+         document.querySelector(`#infoPassOrFail${id}`).innerHTML = 'CHECK WRITING PASS!';
+         document.querySelector(`#infoPassOrFail${id}`).style = 'color: lime';
+      } else {
+         document.querySelector(`#infoPassOrFail${id}`).innerHTML = 'CHECK WRITING FAIL!';
+         document.querySelector(`#infoPassOrFail${id}`).style = 'color: red';
+
+      }
+   }
+}
+
 const handleTranslateCard = (id, name, numberOfTimes, translate, pronounce, createTime) => {
    isTranslate = !isTranslate;
    if(isTranslate) {
       document.querySelector(`.each-card-${id}`).innerHTML = `
          <h1>${translate}</h1>
+         <div style="display: flex"><b>Check writing:</b><input onkeyup="checkWriting(event, ${id}, '${name}')"></div>
+         <div id="infoPassOrFail${id}"></div>
          <b>Pronounce: ${pronounce}</b>
          <div class="btn-each-card">
             <button class="card-btn translate-btn" 
@@ -306,10 +341,9 @@ const handleSaveEditCards = (id, name, numberOfTimes, translate, pronounce, crea
          || numberOfTimes != numberOfTimesAfterChange) {
          checkRemoveCardWhenCountEqualOrThanFour(numberOfTimesAfterChange, id);
       if (Number(numberOfTimesAfterChange < 0) || Number(numberOfTimesAfterChange > 3)) {
-         alert('Number of times much smaller than 4 and larger than -1!')
+         alert('Number of times much smaller than 4 and larger than -1!');
       } else {
          if (deleteCard) {
-            alert('Edit data success!');
             fetch(`${initUrl}${id}`, {
                method: 'PUT', 
                headers: {

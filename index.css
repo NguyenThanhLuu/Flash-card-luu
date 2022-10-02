@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  border: 1px solid gray;
+  border: 4px solid gray;
   border-radius: 10px;
 }
 
@@ -49,15 +49,15 @@
 }
 
 .each-card-background-1 {
-  background-color: rgb(42, 241, 15);
+  background-color: rgb(91 255 69 / 44%);
 }
 
 .each-card-background-2 {
-  background-color: rgb(131 151 0);
+  background-color: rgb(221 255 0 / 45%);
 }
 
 .each-card-background-3 {
-  background-color: rgb(252, 34, 34);
+  background-color: rgb(255 16 177 / 33%);
 }
 
 .each-card:hover {
@@ -190,6 +190,11 @@ img {
   border-radius: 10px;
 }
 
+.table-cover {
+   height: 50vh;
+   overflow-y: scroll;
+}
+
 table {
    border-collapse: collapse;
    width: 100%;
@@ -263,7 +268,7 @@ h1 {
    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
    .each-card {
       width: 100%;
    }
@@ -283,5 +288,10 @@ h1 {
 
    table {
       width: 94%;
+   }
+
+   .save-and-edit-btn {
+      display: flex;
+      flex-direction: row !important;
    }
 }
