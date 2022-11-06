@@ -203,7 +203,8 @@ document.querySelector('.add-btn').onclick = () => {
    if (document.querySelector('.card-title').value.trim() != '' 
          && document.querySelector('.card-translate').value.trim() != '' 
          && document.querySelector('.card-pronounce').value != '') {
-      const workDuplicate = wholeCardWeHave.find(card => card.name.trim() == document.querySelector('.card-title').value.trim());
+      const workDuplicate = wholeCardWeHave.find(card => card.name.trim() 
+                              == document.querySelector('.card-title').value.trim());
       if (workDuplicate) {
          alert('This word already existed!')
       } else {

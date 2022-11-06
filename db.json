@@ -1,204 +1,116 @@
 {
   "cards": [
     {
-      "name": "gents",
+      "name": "opposite",
       "numberOfTimes": 3,
-      "translate": "quý vị",
-      "pronounce": "chen s",
-      "createTime": "9-27-2022",
-      "id": 17
+      "translate": "đối diện",
+      "pronounce": "ó bơ dịt",
+      "createTime": "10-27-2022",
+      "id": 63
     },
     {
-      "name": "bulk ",
+      "name": "sacrifice",
       "numberOfTimes": 3,
-      "translate": "số lượng lớn",
-      "pronounce": "bêu k",
-      "createTime": "9-27-2022",
-      "id": 18
+      "translate": "hi sinh",
+      "pronounce": "sác rê phai",
+      "createTime": "10-27-2022",
+      "id": 64
     },
     {
-      "name": "useless",
+      "name": "cramming",
       "numberOfTimes": 3,
-      "translate": "vô dụng ",
-      "pronounce": "díu sơ lệch",
-      "createTime": "9-27-2022",
-      "id": 19
+      "translate": "nhồi nhét",
+      "pronounce": "cờ rém min",
+      "createTime": "10-27-2022",
+      "id": 65
     },
     {
-      "name": "complicated",
+      "name": "revision",
       "numberOfTimes": 3,
-      "translate": "phức tạp",
-      "pronounce": "cóm ly cay địt",
-      "createTime": "9-27-2022",
-      "id": 20
+      "translate": "ôn tập",
+      "pronounce": "ri ví dền",
+      "createTime": "10-27-2022",
+      "id": 66
     },
     {
-      "name": "spike",
+      "name": "aiming",
       "numberOfTimes": 3,
-      "translate": "mũi nhọn",
-      "pronounce": "sờ bai k",
-      "createTime": "9-28-2022",
-      "id": 21
+      "translate": "nhắm tới",
+      "pronounce": "ém min",
+      "createTime": "10-27-2022",
+      "id": 67
     },
     {
-      "name": "formed",
+      "name": "underutilized",
+      "numberOfTimes": 3,
+      "translate": "không được sử dụng",
+      "pronounce": "ân đề ri díu tơ lai",
+      "createTime": "10-27-2022",
+      "id": 68
+    },
+    {
+      "name": "semester",
+      "numberOfTimes": 3,
+      "translate": "học kỳ",
+      "pronounce": "sơ mét tờ",
+      "createTime": "10-27-2022",
+      "id": 69
+    },
+    {
+      "name": "progresses",
+      "numberOfTimes": 3,
+      "translate": "tiến bộ",
+      "pronounce": "bờ ró gơ rẹt sịt ",
+      "createTime": "10-27-2022",
+      "id": 70
+    },
+    {
+      "name": "pressure",
+      "numberOfTimes": 3,
+      "translate": "áp lực",
+      "pronounce": "bờ rét sờ",
+      "createTime": "10-27-2022",
+      "id": 71
+    },
+    {
+      "name": "panicking",
+      "numberOfTimes": 3,
+      "translate": "hoảng loạn",
+      "pronounce": "bé nờ king",
+      "createTime": "10-27-2022",
+      "id": 72
+    },
+    {
+      "name": "steadily  ",
+      "numberOfTimes": 3,
+      "translate": "đều đặn",
+      "pronounce": "sờ té đơ ly",
+      "createTime": "10-31-2022",
+      "id": 73
+    },
+    {
+      "name": "approaching ",
+      "numberOfTimes": 3,
+      "translate": "đến gần",
+      "pronounce": "ề bờ rếu chin",
+      "createTime": "10-31-2022",
+      "id": 74
+    },
+    {
+      "name": "marks",
       "numberOfTimes": 1,
-      "translate": "hình thành",
-      "pronounce": "phôm đ",
-      "createTime": "9-28-2022",
-      "id": 22
+      "translate": "điểm số",
+      "pronounce": "mác s",
+      "createTime": "11-4-2022",
+      "id": 75
     },
     {
-      "name": "evil",
+      "name": "desperate",
       "numberOfTimes": 1,
-      "translate": "độc ác",
-      "pronounce": "ý vồ",
-      "createTime": "9-28-2022",
-      "id": 23
-    },
-    {
-      "name": "disadvantage",
-      "numberOfTimes": 1,
-      "translate": "nhược điểm",
-      "pronounce": "đít sơ ván tịt ch",
-      "createTime": "9-28-2022",
-      "id": 24
-    },
-    {
-      "name": "blaming",
-      "numberOfTimes": 1,
-      "translate": "đổ lỗi",
-      "pronounce": "bờ lém min",
-      "createTime": "9-28-2022",
-      "id": 25
-    },
-    {
-      "name": "kindness",
-      "numberOfTimes": 1,
-      "translate": "lòng tốt",
-      "pronounce": "kai nệt",
-      "createTime": "9-28-2022",
-      "id": 26
-    },
-    {
-      "name": "feeding",
-      "numberOfTimes": 1,
-      "translate": "cho ăn",
-      "pronounce": "phí đing",
-      "createTime": "9-28-2022",
-      "id": 27
-    },
-    {
-      "name": "wholesome",
-      "numberOfTimes": 1,
-      "translate": "lành mạnh",
-      "pronounce": "hếu sùm",
-      "createTime": "9-28-2022",
-      "id": 28
-    },
-    {
-      "name": "peaceful",
-      "numberOfTimes": 1,
-      "translate": "bình yên",
-      "pronounce": "bí phô",
-      "createTime": "9-28-2022",
-      "id": 29
-    },
-    {
-      "name": "obvious",
-      "numberOfTimes": 1,
-      "translate": "rõ ràng",
-      "pronounce": "ó vi ệt",
-      "createTime": "9-29-2022",
-      "id": 30
-    },
-    {
-      "name": "suppose",
-      "numberOfTimes": 1,
-      "translate": "giả sử",
-      "pronounce": "sờ bêu",
-      "createTime": "9-29-2022",
-      "id": 31
-    },
-    {
-      "name": "even",
-      "numberOfTimes": 1,
-      "translate": "số chẵn",
-      "pronounce": "ý vền",
-      "createTime": "9-30-2022",
-      "id": 32
-    },
-    {
-      "name": "criticized",
-      "numberOfTimes": 1,
-      "translate": "chỉ trích ",
-      "pronounce": "cờ rí đi sai đ",
-      "createTime": "10-1-2022",
-      "id": 33
-    },
-    {
-      "name": "jealousy",
-      "translate": "lòng ghen tị ",
-      "pronounce": "ché lệch si ",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 34
-    },
-    {
-      "name": "craving",
-      "translate": "thèm thuồng ",
-      "pronounce": "cờ ráy ving ",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 35
-    },
-    {
-      "name": "lust",
-      "translate": "ham muốn ",
-      "pronounce": "lết s t",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 36
-    },
-    {
-      "name": "distracted ",
-      "numberOfTimes": 0,
-      "translate": "phân tâm ",
-      "pronounce": "đít trác địt",
-      "createTime": "10-1-2022",
-      "id": 37
-    },
-    {
-      "name": "serene",
-      "translate": "thanh thản",
-      "pronounce": "sơ ri n ",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 38
-    },
-    {
-      "name": "depressed",
-      "translate": "suy sụp ",
-      "pronounce": "đi bở rét s t",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 39
-    },
-    {
-      "name": "silent",
-      "translate": "im lặng ",
-      "pronounce": "sai lền ",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 40
-    },
-    {
-      "name": "lent",
-      "translate": "cho mượn ",
-      "pronounce": "len t",
-      "numberOfTimes": 0,
-      "createTime": "10-1-2022",
-      "id": 41
+      "translate": "tuyệt vọng",
+      "pronounce": "đét bơ rệt",
+      "createTime": "11-4-2022",
+      "id": 76
     }
   ],
   "cards-memorized": [
@@ -313,6 +225,358 @@
       "numberOfTimes": 3,
       "createTime": "9-23-2022",
       "id": 14
+    },
+    {
+      "name": "gents",
+      "translate": "quý vị",
+      "pronounce": "chen s",
+      "numberOfTimes": 3,
+      "createTime": "9-27-2022",
+      "id": 15
+    },
+    {
+      "name": "bulk ",
+      "translate": "số lượng lớn",
+      "pronounce": "bêu k",
+      "numberOfTimes": 3,
+      "createTime": "9-27-2022",
+      "id": 16
+    },
+    {
+      "name": "useless",
+      "translate": "vô dụng ",
+      "pronounce": "díu sơ lệch",
+      "numberOfTimes": 3,
+      "createTime": "9-27-2022",
+      "id": 17
+    },
+    {
+      "name": "complicated",
+      "translate": "phức tạp",
+      "pronounce": "cóm ly cay địt",
+      "numberOfTimes": 3,
+      "createTime": "9-27-2022",
+      "id": 18
+    },
+    {
+      "name": "spike",
+      "translate": "mũi nhọn",
+      "pronounce": "sờ bai k",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 19
+    },
+    {
+      "name": "formed",
+      "translate": "hình thành",
+      "pronounce": "phôm đ",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 20
+    },
+    {
+      "name": "evil",
+      "translate": "độc ác",
+      "pronounce": "ý vồ",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 21
+    },
+    {
+      "name": "disadvantage",
+      "translate": "nhược điểm",
+      "pronounce": "đít sơ ván tịt ch",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 22
+    },
+    {
+      "name": "blaming",
+      "translate": "đổ lỗi",
+      "pronounce": "bờ lém min",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 23
+    },
+    {
+      "name": "kindness",
+      "translate": "lòng tốt",
+      "pronounce": "kai nệt",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 24
+    },
+    {
+      "name": "feeding",
+      "translate": "cho ăn",
+      "pronounce": "phí đing",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 25
+    },
+    {
+      "name": "wholesome",
+      "translate": "lành mạnh",
+      "pronounce": "hếu sùm",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 26
+    },
+    {
+      "name": "peaceful",
+      "translate": "bình yên",
+      "pronounce": "bí phô",
+      "numberOfTimes": 3,
+      "createTime": "9-28-2022",
+      "id": 27
+    },
+    {
+      "name": "obvious",
+      "translate": "rõ ràng",
+      "pronounce": "ó vi ệt",
+      "numberOfTimes": 3,
+      "createTime": "9-29-2022",
+      "id": 28
+    },
+    {
+      "name": "suppose",
+      "translate": "giả sử",
+      "pronounce": "sờ bêu",
+      "numberOfTimes": 3,
+      "createTime": "9-29-2022",
+      "id": 29
+    },
+    {
+      "name": "even",
+      "translate": "số chẵn",
+      "pronounce": "ý vền",
+      "numberOfTimes": 3,
+      "createTime": "9-30-2022",
+      "id": 30
+    },
+    {
+      "name": "criticized",
+      "translate": "chỉ trích ",
+      "pronounce": "cờ rí đi sai đ",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 31
+    },
+    {
+      "name": "jealousy",
+      "translate": "lòng ghen tị ",
+      "pronounce": "ché lệch si ",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 32
+    },
+    {
+      "name": "craving",
+      "translate": "thèm thuồng ",
+      "pronounce": "cờ ráy ving ",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 33
+    },
+    {
+      "name": "lust",
+      "translate": "ham muốn ",
+      "pronounce": "lết s t",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 34
+    },
+    {
+      "name": "distracted ",
+      "translate": "phân tâm ",
+      "pronounce": "đít trác địt",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 35
+    },
+    {
+      "name": "serene",
+      "translate": "thanh thản",
+      "pronounce": "sơ ri n ",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 36
+    },
+    {
+      "name": "depressed",
+      "translate": "suy sụp ",
+      "pronounce": "đi bở rét s t",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 37
+    },
+    {
+      "name": "silent",
+      "translate": "im lặng ",
+      "pronounce": "sai lền ",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 38
+    },
+    {
+      "name": "lent",
+      "translate": "cho mượn ",
+      "pronounce": "len t",
+      "numberOfTimes": 3,
+      "createTime": "10-1-2022",
+      "id": 39
+    },
+    {
+      "name": "desire",
+      "translate": "khao khát",
+      "pronounce": "đi dai ờ",
+      "numberOfTimes": 3,
+      "createTime": "10-6-2022",
+      "id": 40
+    },
+    {
+      "name": "adversity",
+      "translate": "nghịch cảnh ",
+      "pronounce": "ệt vế sơ đi",
+      "numberOfTimes": 3,
+      "createTime": "10-8-2022",
+      "id": 41
+    },
+    {
+      "name": "destruct ",
+      "translate": "hủy hoại ",
+      "pronounce": "đi sờ trất",
+      "numberOfTimes": 3,
+      "createTime": "10-8-2022",
+      "id": 42
+    },
+    {
+      "name": "resentment",
+      "translate": "phẫn nộ ",
+      "pronounce": "ri dét t mền",
+      "numberOfTimes": 3,
+      "createTime": "10-8-2022",
+      "id": 43
+    },
+    {
+      "name": "temper",
+      "translate": "nóng nảy ",
+      "pronounce": "tém bờ",
+      "numberOfTimes": 3,
+      "createTime": "10-9-2022",
+      "id": 44
+    },
+    {
+      "name": "anger",
+      "translate": "sự phẫn nộ",
+      "pronounce": "én gờ",
+      "numberOfTimes": 3,
+      "createTime": "10-9-2022",
+      "id": 45
+    },
+    {
+      "name": "urine",
+      "translate": "nước tiểu",
+      "pronounce": "día rin",
+      "numberOfTimes": 3,
+      "createTime": "10-9-2022",
+      "id": 46
+    },
+    {
+      "name": "initialize",
+      "translate": "khởi tạo ",
+      "pronounce": "in ní sồ lai",
+      "numberOfTimes": 3,
+      "createTime": "10-10-2022",
+      "id": 47
+    },
+    {
+      "name": "pluck",
+      "translate": "nhổ lông",
+      "pronounce": "bờ lất k",
+      "numberOfTimes": 3,
+      "createTime": "10-12-2022",
+      "id": 48
+    },
+    {
+      "name": "exponentially",
+      "translate": "nhanh chóng",
+      "pronounce": "ắt bơ nén sồ ly",
+      "numberOfTimes": 3,
+      "createTime": "10-12-2022",
+      "id": 49
+    },
+    {
+      "name": "intention",
+      "translate": "chủ đích",
+      "pronounce": "in tén sền",
+      "numberOfTimes": 3,
+      "createTime": "10-12-2022",
+      "id": 50
+    },
+    {
+      "name": "comprehensive",
+      "translate": "toàn diện ",
+      "pronounce": "com bơ hén si",
+      "numberOfTimes": 3,
+      "createTime": "10-12-2022",
+      "id": 51
+    },
+    {
+      "name": "treat",
+      "translate": "đối xử ",
+      "pronounce": "trít t",
+      "numberOfTimes": 3,
+      "createTime": "10-15-2022",
+      "id": 52
+    },
+    {
+      "name": "anonymous ",
+      "translate": "vô danh",
+      "pronounce": "ờ nó nơ mệt",
+      "numberOfTimes": 3,
+      "createTime": "10-17-2022",
+      "id": 53
+    },
+    {
+      "name": "toxic",
+      "translate": "chất độc hại ",
+      "pronounce": "tót xịt",
+      "numberOfTimes": 3,
+      "createTime": "10-19-2022",
+      "id": 54
+    },
+    {
+      "name": "remiss ",
+      "translate": "loại bỏ",
+      "pronounce": "ri mít",
+      "numberOfTimes": 3,
+      "createTime": "10-25-2022",
+      "id": 55
+    },
+    {
+      "name": "cubs ",
+      "translate": "đàn con",
+      "pronounce": "cúp s",
+      "numberOfTimes": 3,
+      "createTime": "10-25-2022",
+      "id": 56
+    },
+    {
+      "name": "discussion",
+      "translate": "thảo luận",
+      "pronounce": "đít kết sền",
+      "numberOfTimes": 3,
+      "createTime": "10-26-2022",
+      "id": 57
+    },
+    {
+      "name": "mammal",
+      "translate": "động vật có vú",
+      "pronounce": "má mồ",
+      "numberOfTimes": 3,
+      "createTime": "10-26-2022",
+      "id": 58
     }
   ]
 }
